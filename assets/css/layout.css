@@ -1,0 +1,75 @@
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    min-width: 300px;
+    height: 150px;
+    background: var(--bg-color);
+    padding: 0 5px;
+}
+
+.header_logo img {
+    width: 40px;
+
+}
+
+.header_title {
+    
+    color: var(--primary-font-color);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: var(--font-family);
+    text-align: center;
+    flex: 1;
+}
+
+.header_h1 {
+    margin: 0;
+    font-size: 18px;
+    padding: 5px 10px 20px 10px;
+}
+
+.paragraph_header {
+    font-size: 1.2rem;
+    color: var(--primary-font-color);
+    margin-top: 5px;
+    font-family: var(--font-family);
+    margin-bottom: 5px;
+}
+
+body {
+    background-color: rgb(236, 233, 233);
+    width: 100%;
+    height: auto;
+
+}
+
+.icon_menu-hamburger {
+    font-size: 28px;
+    cursor: pointer;
+    padding: 5px;
+
+}
+
+.icon_menu-hamburger img {
+    width: 40px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-width: 350px;
+    height: auto;
+    background: rgb(236, 233, 233);
+  
+}
+
+.card_img {
+    width: 100%;
+    height: auto;
+    
+
+}

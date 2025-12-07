@@ -1,0 +1,23 @@
+:root {
+    --primary-color: #032469;
+    --secondary-color: #5BC0D6;
+    --tertiary-color: #379FDE;
+    --cuaternary-color: #204362;
+    --peptary-color: #D3EAFC;
+    --primary-font-color: #292327;
+    --secondary-font-color: #204362;
+    --font-size-base: 16px;
+    --font-family: 'Monserrat', Helvetica, Arial, sans-serif;
+    --bg-color: #ffffff;
+
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+    scroll-behavior: smooth;
+}
+
