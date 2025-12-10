@@ -167,7 +167,7 @@ main {
 .orders_buttons {
     display: flex;
     flex-direction: row;
-    judtify-content: center;
+    justify-content: center;
     padding: 10px 20px;
 
 
