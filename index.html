@@ -139,11 +139,67 @@
 
         </section>
 
+        <section class="contact-form">
+            <h2 class="contact-form_title"> Contáctanos </h2>
+
+            <form name="formulario" method="post" action="/send/"></form>
+            <input class="campo_entrada" type="text" name="username" placeholder="Name">
+            <input class="campo_entrada" type="email" name="email" placeholder="Email">
+            <input class="campo_entrada" type="text" name="subject" placeholder="Subject">
+            <textarea class="campo_entrada_textarea" name="message" placeholder="Message"></textarea>
+            <button class="boton-enviar_form" type="submit"> Enviar </button>
+        </section>
+
+        <section class="faq-section">
+
+            <h2 class="faq-title"> Preguntas Frecuentes </h2>
+
+            <div class="faq-item">
+                <h3 class="faq-question"> ¿Qué servicios ofrece tu clínica dental? </h3>
+                <p class="faq-answer"> Ofrecemos una amplia gama de servicios dentales, incluyendo limpiezas,
+                    extracciones, ortodoncia y más. </p>
+            </div>
+
+            <div class="faq-item">
+                <h3 class="faq-question"> ¿Cuál es el horario de atención? </h3>
+                <p class="faq-answer"> Nuestro horario es de lunes a viernes de 8:00 a 18:00 horas. </p>
+            </div>
+
+        </section>
+
     </main>
 
-    <footer>
+    <footer class="footer">
 
-        <p class="footer_text"> Creado con &#128151; por Eitav </p>
+        <div class="footer_creator">
+            <p class="footer_text"> Creado con &#128151; por Eitav </p>
+
+        </div>
+
+
+        <div class="footer_navegacion">
+            <a href="https://eitav.com" target="_blank" rel="noopener noreferrer"></a>
+            <a href="#Inicio"> Ir al Inicio</a>
+            <a href="#Servicios"> Ir a Servicios</a>
+            <a href="#Conocenos"> Ir a Conocenos</a>
+
+
+        </div>
+
+
+        <div class="footer_redes-sociales">
+            <a class="redes-sociales" href="www.facebook.com" target="_blank" rel="noopener noreferrer">
+                <img src="/assets/img/facebook-svgrepo-com.svg" alt="facebook">
+            </a>
+
+            <a class="redes-sociales" href="www.instagram.com" target="_blank" rel="noopener noreferrer">
+                <img src="/assets/img/instagram-svgrepo-com.svg" alt="instagram">
+
+            </a>
+        </div>
+
+        <div class="footer_copyright"> Copyright 2025 - Odontologia Integral </div>
+
 
     </footer>
 </body>
